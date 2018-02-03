@@ -36,7 +36,7 @@ Blockly.Blocks['operator_add'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 + %2",
+        "message0": LOCAL.blocks_operator_add,
         "args0": [
           {
             "type": "input_value",
@@ -61,7 +61,7 @@ Blockly.Blocks['operator_subtract'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 - %2",
+        "message0": LOCAL.blocks_operator_subtract,
         "args0": [
           {
             "type": "input_value",
@@ -86,7 +86,7 @@ Blockly.Blocks['operator_multiply'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 * %2",
+        "message0": LOCAL.blocks_operator_multiply,
         "args0": [
           {
             "type": "input_value",
@@ -111,7 +111,7 @@ Blockly.Blocks['operator_divide'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 / %2",
+        "message0": LOCAL.blocks_operator_divide,
         "args0": [
           {
             "type": "input_value",
@@ -136,7 +136,7 @@ Blockly.Blocks['operator_random'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "pick random %1 to %2",
+        "message0": LOCAL.blocks_operator_random,
         "args0": [
           {
             "type": "input_value",
@@ -160,7 +160,7 @@ Blockly.Blocks['operator_lt'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 < %2",
+      "message0": LOCAL.blocks_operator_lt,
       "args0": [
         {
           "type": "input_value",
@@ -184,7 +184,7 @@ Blockly.Blocks['operator_equals'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 = %2",
+      "message0": LOCAL.blocks_operator_equals,
       "args0": [
         {
           "type": "input_value",
@@ -208,7 +208,7 @@ Blockly.Blocks['operator_gt'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 > %2",
+      "message0": LOCAL.blocks_operator_gt,
       "args0": [
         {
           "type": "input_value",
@@ -232,7 +232,7 @@ Blockly.Blocks['operator_and'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 and %2",
+      "message0": LOCAL.blocks_operator_and,
       "args0": [
         {
           "type": "input_value",
@@ -258,7 +258,7 @@ Blockly.Blocks['operator_or'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 or %2",
+      "message0": LOCAL.blocks_operator_or,
       "args0": [
         {
           "type": "input_value",
@@ -284,7 +284,7 @@ Blockly.Blocks['operator_not'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "not %1",
+      "message0": LOCAL.blocks_operator_not,
       "args0": [
         {
           "type": "input_value",
@@ -305,7 +305,7 @@ Blockly.Blocks['operator_join'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "join %1 %2",
+      "message0": LOCAL.blocks_operator_join,
       "args0": [
         {
           "type": "input_value",
@@ -329,7 +329,7 @@ Blockly.Blocks['operator_letter_of'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "letter %1 of %2",
+      "message0": LOCAL.blocks_operator_letter_of,
       "args0": [
         {
           "type": "input_value",
@@ -353,7 +353,7 @@ Blockly.Blocks['operator_length'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "length of %1",
+      "message0": LOCAL.blocks_operator_length,
       "args0": [
         {
           "type": "input_value",
@@ -374,7 +374,7 @@ Blockly.Blocks['operator_contains'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 contains %2?",
+        "message0": LOCAL.blocks_operator_contains,
         "args0": [
           {
             "type": "input_value",
@@ -399,7 +399,7 @@ Blockly.Blocks['operator_mod'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 mod %2",
+        "message0": LOCAL.blocks_operator_mod,
         "args0": [
           {
             "type": "input_value",
@@ -424,7 +424,7 @@ Blockly.Blocks['operator_round'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "round %1",
+        "message0": LOCAL.blocks_operator_round,
         "args0": [
           {
             "type": "input_value",
@@ -445,7 +445,7 @@ Blockly.Blocks['operator_mathop'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 of %2",
+        "message0": LOCAL.blocks_operator_mathop,
         "args0": [
           {
             "type": "field_dropdown",

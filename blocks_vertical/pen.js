@@ -35,7 +35,7 @@ Blockly.Blocks['pen_clear'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "clear",
+      "message0": LOCAL.blocks_pen_clear,
       "category": Blockly.Categories.pen,
       "extensions": ["colours_pen", "shape_statement"]
     });
@@ -49,7 +49,7 @@ Blockly.Blocks['pen_stamp'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "stamp",
+      "message0": LOCAL.blocks_pen_stamp,
       "category": Blockly.Categories.pen,
       "extensions": ["colours_pen", "shape_statement"]
     });
@@ -63,7 +63,7 @@ Blockly.Blocks['pen_pendown'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "pen down",
+      "message0": LOCAL.blocks_pen_pendown,
       "category": Blockly.Categories.pen,
       "extensions": ["colours_pen", "shape_statement"]
     });
@@ -77,7 +77,7 @@ Blockly.Blocks['pen_penup'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "pen up",
+      "message0": LOCAL.blocks_pen_penup,
       "category": Blockly.Categories.pen,
       "extensions": ["colours_pen", "shape_statement"]
     });
@@ -91,7 +91,7 @@ Blockly.Blocks['pen_setpencolortocolor'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set pen color to %1",
+      "message0": LOCAL.blocks_pen_setpencolortocolor,
       "args0": [
         {
           "type": "input_value",
@@ -111,7 +111,7 @@ Blockly.Blocks['pen_changepencolorby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change pen color by %1",
+      "message0": LOCAL.blocks_pen_changepencolorby,
       "args0": [
         {
           "type": "input_value",
@@ -131,7 +131,7 @@ Blockly.Blocks['pen_setpencolortonum'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set pen color to %1",
+      "message0": LOCAL.blocks_pen_setpencolortonum,
       "args0": [
         {
           "type": "input_value",
@@ -151,7 +151,7 @@ Blockly.Blocks['pen_changepenshadeby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change pen shade by %1",
+      "message0": LOCAL.blocks_pen_changepenshadeby,
       "args0": [
         {
           "type": "input_value",
@@ -171,7 +171,7 @@ Blockly.Blocks['pen_setpenshadeto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set pen shade to %1",
+      "message0": LOCAL.blocks_pen_setpenshadeto,
       "args0": [
         {
           "type": "input_value",
@@ -191,7 +191,7 @@ Blockly.Blocks['pen_changepensizeby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change pen size by %1",
+      "message0": LOCAL.blocks_pen_changepensizeby,
       "args0": [
         {
           "type": "input_value",
@@ -211,7 +211,7 @@ Blockly.Blocks['pen_setpensizeto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set pen size to %1",
+      "message0": LOCAL.blocks_pen_setpensizeto,
       "args0": [
         {
           "type": "input_value",
@@ -231,7 +231,7 @@ Blockly.Blocks['pen_changepentransparencyby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change pen transparency by %1",
+      "message0": LOCAL.blocks_pen_changepentransparencyby,
       "args0": [
         {
           "type": "input_value",
@@ -251,7 +251,7 @@ Blockly.Blocks['pen_setpentransparencyto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set pen transparency to %1",
+      "message0": LOCAL.blocks_pen_setpentransparencyto,
       "args0": [
         {
           "type": "input_value",

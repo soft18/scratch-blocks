@@ -55,6 +55,7 @@ goog.require('goog.string');
  * @constructor
  */
 Blockly.Block = function(workspace, prototypeName, opt_id) {
+  console.log('scratch-blocks load my 2018-02-03-A');
   var flyoutWorkspace = workspace && workspace.getFlyout && workspace.getFlyout() ?
      workspace.getFlyout().getWorkspace() : null;
   /** @type {string} */

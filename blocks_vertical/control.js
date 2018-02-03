@@ -36,7 +36,7 @@ Blockly.Blocks['control_forever'] = {
   init: function() {
     this.jsonInit({
       "id": "control_forever",
-      "message0": "forever",
+      "message0": LOCAL.blocks_control_forever,
       "message1": "%1", // Statement
       "message2": "%1", // Icon
       "lastDummyAlign2": "RIGHT",
@@ -71,7 +71,7 @@ Blockly.Blocks['control_repeat'] = {
   init: function() {
     this.jsonInit({
       "id": "control_repeat",
-      "message0": "repeat %1",
+      "message0": LOCAL.blocks_control_repeat,
       "message1": "%1", // Statement
       "message2": "%1", // Icon
       "lastDummyAlign2": "RIGHT",
@@ -111,7 +111,7 @@ Blockly.Blocks['control_if'] = {
   init: function() {
     this.jsonInit({
       "type": "control_if",
-      "message0": "if %1 then",
+      "message0": LOCAL.blocks_control_if,
       "message1": "%1", // Statement
       "args0": [
         {
@@ -140,9 +140,9 @@ Blockly.Blocks['control_if_else'] = {
   init: function() {
     this.jsonInit({
       "type": "control_if_else",
-      "message0": "if %1 then",
+      "message0": LOCAL.blocks_control_if_else_if,
       "message1": "%1",
-      "message2": "else",
+      "message2": LOCAL.blocks_control_if_else_else,
       "message3": "%1",
       "args0": [
         {
@@ -186,9 +186,9 @@ Blockly.Blocks['control_stop'] = {
           ['other scripts in sprite', OTHER_SCRIPTS]
         ];
       }
-      return [['all', ALL_SCRIPTS],
-        ['this script', THIS_SCRIPT],
-        ['other scripts in sprite', OTHER_SCRIPTS]
+      return [[LOCAL.blocks_control_stop_all, ALL_SCRIPTS],
+        [LOCAL.blocks_control_stop_this, THIS_SCRIPT],
+        [LOCAL.blocks_control_stop_other, OTHER_SCRIPTS]
       ];
     }, function(option) {
       this.sourceBlock_.setNextStatement(option == OTHER_SCRIPTS);
@@ -223,7 +223,7 @@ Blockly.Blocks['control_wait'] = {
   init: function() {
     this.jsonInit({
       "id": "control_wait",
-      "message0": "wait %1 seconds",
+      "message0": LOCAL.blocks_control_wait,
       "args0": [
         {
           "type": "input_value",
@@ -243,7 +243,7 @@ Blockly.Blocks['control_wait_until'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "wait until %1",
+      "message0": LOCAL.blocks_control_wait_until,
       "args0": [
         {
           "type": "input_value",
@@ -263,7 +263,7 @@ Blockly.Blocks['control_repeat_until'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "repeat until %1",
+      "message0": LOCAL.blocks_control_repeat_until,
       "message1": "%1",
       "message2": "%1",
       "lastDummyAlign2": "RIGHT",
@@ -304,7 +304,7 @@ Blockly.Blocks['control_start_as_clone'] = {
   init: function() {
     this.jsonInit({
       "id": "control_start_as_clone",
-      "message0": "when I start as a clone",
+      "message0": LOCAL.blocks_control_start_as_clone,
       "args0": [
       ],
       "category": Blockly.Categories.control,
@@ -344,7 +344,7 @@ Blockly.Blocks['control_create_clone_of'] = {
   init: function() {
     this.jsonInit({
       "id": "control_start_as_clone",
-      "message0": "create clone of %1",
+      "message0": LOCAL.blocks_control_create_clone_of,
       "args0": [
         {
           "type": "input_value",
@@ -364,7 +364,7 @@ Blockly.Blocks['control_delete_this_clone'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "delete this clone",
+      "message0": LOCAL.blocks_control_delete_this_clone,
       "args0": [
       ],
       "category": Blockly.Categories.control,

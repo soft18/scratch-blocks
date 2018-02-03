@@ -33,7 +33,7 @@ Blockly.Blocks['extension_pen_down'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 %2 pen down",
+      "message0": LOCAL.blocks_extension_pen_down,
       "args0": [
         {
           "type": "field_image",
@@ -57,7 +57,7 @@ Blockly.Blocks['extension_music_drum'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 %2 play drum %3",
+      "message0": LOCAL.blocks_extension_music_drum,
       "args0": [
         {
           "type": "field_image",
@@ -85,7 +85,7 @@ Blockly.Blocks['extension_wedo_motor'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 %2 turn a motor %3",
+      "message0": LOCAL.blocks_extension_wedo_motor,
       "args0": [
         {
           "type": "field_image",
@@ -115,7 +115,7 @@ Blockly.Blocks['extension_wedo_hat'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 %2 when I am wearing a hat",
+      "message0": LOCAL.blocks_extension_wedo_hat,
       "args0": [
         {
           "type": "field_image",
@@ -139,7 +139,7 @@ Blockly.Blocks['extension_wedo_boolean'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 %2 O RLY?",
+      "message0": LOCAL.blocks_extension_wedo_boolean,
       "args0": [
         {
           "type": "field_image",
@@ -163,7 +163,7 @@ Blockly.Blocks['extension_wedo_tilt_reporter'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 %2 tilt angle %3",
+      "message0": LOCAL.blocks_extension_wedo_tilt_reporter,
       "args0": [
         {
           "type": "field_image",
@@ -216,7 +216,7 @@ Blockly.Blocks['extension_music_reporter'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 %2 hey now, you're an all-star",
+      "message0": LOCAL.blocks_extension_music_reporter,
       "args0": [
         {
           "type": "field_image",
