@@ -63,7 +63,7 @@ goog.require('Blockly.utils');
 goog.require('goog.color');
 goog.require('goog.userAgent');
 
-
+  console.log('scratch-blocks blockly.js my 2018-02-03-A');
 // Turn off debugging when compiled.
 /* eslint-disable no-unused-vars */
 var CLOSURE_DEFINES = {'goog.DEBUG': false};

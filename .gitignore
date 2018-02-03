@@ -2,7 +2,7 @@
 .DS_Store
 # my self
 .idea
-/msg/js/*
+/msg/js
 /msg/json/*
 /package-lock.json
 /dart_compressed.js
