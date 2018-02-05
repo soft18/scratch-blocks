@@ -3,7 +3,7 @@
 # my self
 .idea
 /msg/js
-/msg/json/*
+
 /package-lock.json
 /dart_compressed.js
 /javascript_compressed.js
