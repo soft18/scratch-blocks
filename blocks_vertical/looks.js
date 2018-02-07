@@ -147,13 +147,13 @@ Blockly.Blocks['looks_hide'] = {
 };
 
 Blockly.Blocks['looks_effect_menu_options'] = [
-  [LOCAL.blocks_looks_effect_menu_options_color, 'COLOR'],
-  [LOCAL.blocks_looks_effect_menu_options_fisheye, 'FISHEYE'],
-  [LOCAL.blocks_looks_effect_menu_options_whirl, 'WHIRL'],
-  [LOCAL.blocks_looks_effect_menu_options_pixelate, 'PIXELATE'],
-  [LOCAL.blocks_looks_effect_menu_options_mosaic, 'MOSAIC'],
-  [LOCAL.blocks_looks_effect_menu_options_brightness, 'BRIGHTNESS'],
-  [LOCAL.blocks_looks_effect_menu_options_ghost, 'GHOST']
+  ['color', 'COLOR'],
+  ['fisheye', 'FISHEYE'],
+  ['whirl', 'WHIRL'],
+  ['pixelate', 'PIXELATE'],
+  ['mosaic', 'MOSAIC'],
+  ['brightness', 'BRIGHTNESS'],
+  ['ghost', 'GHOST']
 ];
 
 Blockly.Blocks['looks_changeeffectby'] = {
@@ -479,21 +479,6 @@ Blockly.Blocks['looks_costumenumbername'] = {
           ]
         }
       ],
-      "category": Blockly.Categories.looks,
-      "checkboxInFlyout": true,
-      "extensions": ["colours_looks", "output_number"]
-    });
-  }
-};
-
-Blockly.Blocks['looks_backdroporder'] = {
-  /**
-   * Block to report backdrop's order
-   * @this Blockly.Block
-   */
-  init: function() {
-    this.jsonInit({
-      "message0": LOCAL.blocks_looks_backdroporder,
       "category": Blockly.Categories.looks,
       "checkboxInFlyout": true,
       "extensions": ["colours_looks", "output_number"]

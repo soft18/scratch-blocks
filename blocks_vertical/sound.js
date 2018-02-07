@@ -227,8 +227,8 @@ Blockly.Blocks['sound_playnoteforbeats'] = {
 };
 
 Blockly.Blocks['sound_effects_menu_options'] = [
-  [LOCAL.blocks_sound_effects_menu_options_pitch, 'PITCH'],
-  [LOCAL.blocks_sound_effects_menu_options_pan, 'PAN']
+  ['pitch', 'PITCH'],
+  ['pan left/right', 'PAN']
 ];
 
 Blockly.Blocks['sound_seteffectto'] = {
