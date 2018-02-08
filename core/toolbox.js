@@ -82,6 +82,11 @@ Blockly.Toolbox = function(workspace) {
   this.toolboxPosition = workspace.options.toolboxPosition;
 
 };
+/*
+ * my self
+ * 1: app type
+ * */
+Blockly.Toolbox.prototype.gsType = 0;
 
 /**
  * Width of the toolbox, which changes only in vertical layout.
@@ -207,6 +212,19 @@ Blockly.Toolbox.prototype.showAll_ = function() {
   }
   this.flyout_.show(allContents);
 };
+/*
+* show only select
+* my self
+* */
+Blockly.Toolbox.prototype.showSelect_ = function(selectCategory) {
+  console.log('sctatch-block toolbox.js showSelect_ 1111');
+  var allContents = [];
+  if(!selectCategory) selectCategory = this.categoryMenu_.categories_[0];
+  allContents = allContents.concat(selectCategory.getContents());
+  this.flyout_.show(allContents);
+};
+
+
 
 /**
  * Get the width of the toolbox.
@@ -349,9 +367,14 @@ Blockly.Toolbox.prototype.setSelectedItem = function(item) {
   this.selectedItem_ = item;
   if (this.selectedItem_ != null) {
     this.selectedItem_.setSelected(true);
-    // Scroll flyout to the top of the selected category
-    var categoryName = item.name_;
-    this.scrollToCategoryByName(categoryName);
+    //show flyout: my-self
+    if(this.gsType == 1  ){
+      this.showSelect_(item);
+    }else{
+      // Scroll flyout to the top of the selected category
+      var categoryName = item.name_;
+      this.scrollToCategoryByName(categoryName);
+    }
   }
 };
 
@@ -547,6 +570,7 @@ Blockly.Toolbox.Category.prototype.createDom = function() {
     this.bubble_.style.backgroundColor = this.colour_;
     this.bubble_.style.borderColor = this.secondaryColour_;
   }
+  this.label_.style.color = this.colour_;
   this.item_.appendChild(this.bubble_);
   this.item_.appendChild(this.label_);
   this.parentHtml_.appendChild(this.item_);
