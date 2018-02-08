@@ -683,7 +683,7 @@ Blockly.Blocks['procedures_definition'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "define %1",
+      "message0": LOCAL.blocks_procedures_definition,
       "args0": [
         {
           "type": "input_statement",

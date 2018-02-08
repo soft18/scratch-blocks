@@ -35,7 +35,7 @@ Blockly.Blocks['sensing_touchingobject'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "touching %1?",
+      "message0": LOCAL.blocks_sensing_touchingobject,
       "args0": [
         {
           "type": "input_value",
@@ -79,7 +79,7 @@ Blockly.Blocks['sensing_touchingcolor'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "touching color %1?",
+      "message0": LOCAL.blocks_sensing_touchingcolor,
       "args0": [
         {
           "type": "input_value",
@@ -99,7 +99,7 @@ Blockly.Blocks['sensing_coloristouchingcolor'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "color %1 is touching %2?",
+      "message0": LOCAL.blocks_sensing_coloristouchingcolor,
       "args0": [
         {
           "type": "input_value",
@@ -123,7 +123,7 @@ Blockly.Blocks['sensing_distanceto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "distance to %1",
+      "message0": LOCAL.blocks_sensing_distanceto,
       "args0": [
         {
           "type": "input_value",
@@ -166,7 +166,7 @@ Blockly.Blocks['sensing_askandwait'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "ask %1 and wait",
+      "message0": LOCAL.blocks_sensing_askandwait,
       "args0": [
         {
           "type": "input_value",
@@ -186,7 +186,7 @@ Blockly.Blocks['sensing_answer'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "answer",
+      "message0": LOCAL.blocks_sensing_answer,
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_number"]
@@ -201,7 +201,7 @@ Blockly.Blocks['sensing_keypressed'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "key %1 pressed?",
+      "message0": LOCAL.blocks_sensing_keypressed,
       "args0": [
         {
           "type": "field_dropdown",
@@ -266,7 +266,7 @@ Blockly.Blocks['sensing_mousedown'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "mouse down?",
+      "message0": LOCAL.blocks_sensing_mousedown,
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_boolean"]
     });
@@ -280,7 +280,7 @@ Blockly.Blocks['sensing_mousex'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "mouse x",
+      "message0": LOCAL.blocks_sensing_mousex,
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_number"]
     });
@@ -294,7 +294,7 @@ Blockly.Blocks['sensing_mousey'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "mouse y",
+      "message0": LOCAL.blocks_sensing_mousey,
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_number"]
     });
@@ -332,7 +332,7 @@ Blockly.Blocks['sensing_loudness'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "loudness",
+      "message0": LOCAL.blocks_sensing_loudness,
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_number"]
@@ -347,7 +347,7 @@ Blockly.Blocks['sensing_videoon'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "video %1 on %2",
+      "message0": LOCAL.blocks_sensing_videoon,
       "args0": [
         {
           "type": "input_value",
@@ -418,7 +418,7 @@ Blockly.Blocks['sensing_videotoggle'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "turn video %1",
+      "message0": LOCAL.blocks_sensing_videotoggle,
       "args0": [
         {
           "type": "input_value",
@@ -463,7 +463,7 @@ Blockly.Blocks['sensing_setvideotransparency'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set video transparency to %1%",
+      "message0": LOCAL.blocks_sensing_setvideotransparency,
       "args0": [
         {
           "type": "input_value",
@@ -483,7 +483,7 @@ Blockly.Blocks['sensing_timer'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "timer",
+      "message0": LOCAL.blocks_sensing_timer,
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_number"]
@@ -498,7 +498,7 @@ Blockly.Blocks['sensing_resettimer'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "reset timer",
+      "message0": LOCAL.blocks_sensing_resettimer,
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "shape_statement"]
     });
@@ -537,7 +537,7 @@ Blockly.Blocks['sensing_of'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 of %2",
+      "message0": LOCAL.blocks_sensing_of,
       "args0": [
         {
           "type": "field_dropdown",
@@ -574,7 +574,7 @@ Blockly.Blocks['sensing_current'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "current %1",
+      "message0": LOCAL.blocks_sensing_current,
       "args0": [
         {
           "type": "field_dropdown",
@@ -604,7 +604,7 @@ Blockly.Blocks['sensing_dayssince2000'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "days since 2000",
+      "message0": LOCAL.blocks_sensing_dayssince2000,
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_number"]
     });
@@ -618,7 +618,7 @@ Blockly.Blocks['sensing_username'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "username",
+      "message0": LOCAL.blocks_sensing_username,
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_number"]
