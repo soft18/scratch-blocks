@@ -217,7 +217,6 @@ Blockly.Toolbox.prototype.showAll_ = function() {
 * my self
 * */
 Blockly.Toolbox.prototype.showSelect_ = function(selectCategory) {
-  console.log('sctatch-block toolbox.js showSelect_ 1111');
   var allContents = [];
   if(!selectCategory) selectCategory = this.categoryMenu_.categories_[0];
   allContents = allContents.concat(selectCategory.getContents());
