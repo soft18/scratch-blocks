@@ -245,20 +245,6 @@ Blockly.OUTPUT_SHAPE_ROUND = 2;
 Blockly.OUTPUT_SHAPE_SQUARE = 3;
 
 /**
- * Radius of stack glow, in px.
- * @type {number}
- * @const
- */
-Blockly.STACK_GLOW_RADIUS = 1.3;
-
-/**
- * Radius of replacement glow, in px.
- * @type {number}
- * @const
- */
-Blockly.REPLACEMENT_GLOW_RADIUS = 2;
-
-/**
  * ENUM for categories.
  * @const
  */
@@ -380,3 +366,12 @@ Blockly.PROCEDURES_PROTOTYPE_BLOCK_TYPE = 'procedures_prototype';
  * @const {string}
  */
 Blockly.PROCEDURES_CALL_BLOCK_TYPE = 'procedures_call';
+
+/**
+ * ENUM for flyout status button states.
+ * @const
+ */
+Blockly.StatusButtonState = {
+  "READY": "ready",
+  "NOT_READY": "not ready",
+};
